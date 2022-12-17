@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    padding: 0;
+}
+
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#grid img {
+    width: 150px;
+    height: 260px;
+    background: linear-gradient(320deg, rgba(251,198,185,1) 0%, rgb(240, 161, 166) 100%);
+    border: 2px solid #000;
+    border-radius: 5px;
+}
